@@ -1,5 +1,3 @@
-import queue
-q = queue.Queue()
 N,K = map(int,input().split())
 ds = list(map(int,input().split()))
 

@@ -5,7 +5,6 @@ def gcd(x, y):
 N = int(input())
 
 out = 0
-gcds = {}
 for i in range(1,N+1):
     for j in range(i,N+1):
         for k in range(j,N+1):   
